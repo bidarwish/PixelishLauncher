@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.example.pixelishlauncher'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.example.pixelishlauncher'
+        minSdk 31
+        targetSdk 32
+        versionCode 1
+        versionName '0.1'
+    }
+}
